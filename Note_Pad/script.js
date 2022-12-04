@@ -1,5 +1,5 @@
 const addNote = document.getElementById("add");
-
+console.log("test");
 addNote.addEventListener("click", () => addNewNote());
 
 const addNewNote = (text = "") => {
